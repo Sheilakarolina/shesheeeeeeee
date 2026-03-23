@@ -1,8 +1,30 @@
 body{
 display: grid;
-
-
-
-
-
+grid-template-areas:
+"cabeca cabeca cabeca"
+"braco braco braco"
+"perna perna perna"
+grid-template-rows; 250px ;
+grid template columns
+}
+header{
+    background-color: blue;
+    grid-area: cabeça;
+}
+main{
+    background-color: blueviolet;
+    grid-area: corpo;
+    height: 750px;
+}
+aside{
+    background-color: aquamarine;
+    grid-area: braco;
+}
+footer{
+    background-color: brown;
+    grid-area: perna;
+    height: auto;
+}
+@media :only screen and (max-with:850px){
+    
 }
